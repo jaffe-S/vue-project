@@ -61,10 +61,11 @@ export default {
     /* 菜单栏收缩解决办法 */
     .el-menu:not(.el-menu--collapse) {
         width: 200px;
-        min-height: 400px;
+        /* min-height: 400px; */
     }
     .el-menu{
         border-right: none;
+
     }
     .el-menu-vertical-demo{
 
