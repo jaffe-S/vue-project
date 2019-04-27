@@ -13,7 +13,7 @@
         <span>{{item.name}}</span>
       </template>
       <el-menu-item v-for="(subitem,subindex) in item.children" :key="subindex" :index="`${index+1}-${subindex+1}`">
-        <router-link to="subitem.src">{{subitem.name}}</router-link>
+        <router-link :to="subitem.src">{{subitem.name}}</router-link>
         </el-menu-item>
 
     </el-submenu>
